@@ -4,7 +4,7 @@
 #include <span>
 #include <type_traits>
 
-#include <libudph/Math/Math.h>
+#include <libudph/Math/udMath.h>
 #include <libudph/Class/Traits.h>
 
 namespace UD
