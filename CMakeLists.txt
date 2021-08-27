@@ -7,7 +7,11 @@ project_create(libudph_Container)
 
 PROJECT_SET_NAMESPACE(libudph_Container libudph)
 
-TARGET_CREATE_LIB(Container INTERFACE)
+TARGET_CREATE_LIB(Container STATIC)
+TARGET_APPEND_SRC(
+	Container
+	"libudph/Container/dummy.cpp"
+)
 TARGET_APPEND_HDR(
 	Container
 	"libudph/Container/Container.h"
